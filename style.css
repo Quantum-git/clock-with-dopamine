@@ -1,0 +1,103 @@
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #131111;
+    }
+    
+    .timer-container {
+      background-color: #323030;
+      border-radius: 10px;
+      padding: 30px;
+      padding-bottom: 0px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+      text-align: center;
+    }
+
+    .timer-container p, a {
+      font-size: 10px;
+      font-weight: 1;
+      color: rgb(5, 115, 36);
+      text-decoration: none;
+    }
+
+    .timer-container img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .timer {
+      font-size: 60px;
+      font-weight: bold;
+      margin: 20px 0;
+      color: #ffffff;
+    }
+
+    .timer-label {
+      font-size: 24px;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+
+    .time-unit {
+      display: inline-block;
+      min-width: 100px;
+      text-align: center;
+    }
+    
+    .time-value {
+      font-size: 60px;
+    }
+    
+    .time-label {
+      font-size: 16px;
+      color: #ffffff;
+    }
+
+    .ytasscontainer {
+      background-color: #323030;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      display: flex;
+      margin: 10px;
+    }
+
+    .removeytass1 {
+        width: 100%;
+        max-width: 250px;
+        height: 455px;
+        overflow: hidden;
+        pointer-events: none;
+        margin-right: 5px;
+    }
+
+    .removeytass1 iframe {
+        width: 298.5%;
+        height: 100%;
+        margin-left: -100%;
+        transform: scale(1.4);
+    }
+
+    .removeytass2 {
+        width: 100%;
+        max-width: 250px;
+        height: 455px;
+        overflow: hidden;
+        pointer-events: none;
+        margin-left: 5px;
+
+    }
+
+    .removeytass2 iframe {
+        width: 298.5%;
+        height: 100%;
+        margin-left: -100%;
+        transform: scale(1.4);
+    }
