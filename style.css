@@ -1,12 +1,21 @@
-body {
+    body {
       font-family: Arial, sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      min-height: 100vh;
       margin: 0;
+      padding: 0;
       background-color: #131111;
+      overflow-x: hidden;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    html {
+      overflow-x: hidden;
+      width: 100%;
     }
     
     .timer-container {
@@ -144,7 +153,7 @@ body {
       }
       
       .time-unit {
-        min-width: 80px;
+        min-width: 70px;
       }
       
       .time-value {
@@ -153,6 +162,23 @@ body {
       
       .time-label {
         font-size: 14px;
+      }
+      
+      .ytasscontainer {
+        background-color: #323030;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        margin: 10px;
+      }
+      
+      .removeytass1 iframe {
+        transform: scale(2.1);
+      }
+
+      .removeytass2 iframe {
+        transform: scale(2.1);
       }
     }
     
@@ -181,4 +207,13 @@ body {
       .time-label {
         font-size: 12px;
       }
+
+    .removeytass1 iframe {
+        transform: scale(2.1);
+    }
+
+    .removeytass2 iframe {
+        transform: scale(2.1);
+    }
+      
     }
